@@ -1,0 +1,37 @@
+/* Modal extra ancho */
+.modal-90w {
+    width: 90%;
+    max-width: none !important;
+  }
+  
+  @media (min-width: 1200px) {
+    .modal-90w {
+      width: 85%;
+      max-width: 1400px;
+    }
+  }
+  
+  /* Ajustes para el contenido del código */
+  .react-syntax-highlighter-line-number {
+    min-width: 2.5em !important;
+  }
+
+  /* Efecto de aparición suave */
+  .modal.fade .modal-dialog {
+    transition: transform 0.3s ease-out, opacity 0.3s ease;
+  }
+  
+  /* Scroll suave para código largo */
+  .modal-body {
+    overflow-y: auto;
+    max-height: 80vh;
+  }
+  
+  /* Barra de scroll personalizada */
+  .modal-body::-webkit-scrollbar {
+    width: 8px;
+  }
+  .modal-body::-webkit-scrollbar-thumb {
+    background-color: #495057;
+    border-radius: 4px;
+  }

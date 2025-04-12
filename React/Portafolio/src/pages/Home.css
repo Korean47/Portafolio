@@ -1,0 +1,57 @@
+/* Contenedor de imagen */
+.img-container {
+  padding: 20px;
+}
+
+/* Imagen de perfil (ahora aplica todos los estilos) */
+.profile-img {
+  width: 250px !important; 
+  height: 250px !important; 
+  object-fit: cover;
+  border: 3px solid #2c3e50 !important;
+  border-radius: 50% !important; 
+  margin: 0 auto;
+  display: block;
+}
+
+.profile-img {
+  transition: all 0.3s ease;
+}
+
+.profile-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Override de Bootstrap para Cards */
+.hero-card {
+  max-width: 600px;
+  border: none !important;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  overflow: hidden; /* Asegura que el border-radius se aplique */
+}
+
+.hero-card .card-body {
+  padding: 2rem;
+}
+
+.tagline {
+  color: #6c757d;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Badges de habilidades */
+.skill-badge {
+  background: #f8f9fa;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-weight: 500;
+  border: 1px solid #dee2e6;
+}
+
+/* Efecto hover para los botones */
+.btn-primary:hover {
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
+}

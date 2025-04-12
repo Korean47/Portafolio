@@ -1,0 +1,52 @@
+/* Estilos para la sección */
+.about-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #2c3e50;
+    position: relative;
+  }
+  
+  .section-title::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: #3498db;
+    margin: 15px auto;
+  }
+  
+  /* Tabs personalizados */
+  .custom-tabs .nav-link {
+    font-weight: 600;
+    color: #7f8c8d;
+    border: none !important;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  }
+  
+  .custom-tabs .nav-link.active {
+    color: #3498db !important;
+    border-bottom: 3px solid #3498db !important;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  }
+  
+  /* Barras de habilidades */
+  .skill-bar {
+    height: 10px;
+    border-radius: 5px;
+  }
+  
+  .skill-bar .progress-bar {
+    background-color: #3498db;
+  }
+  
+  /* Tarjeta de educación */
+  .education-card {
+    border: none;
+    border-left: 4px solid #3498db;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  }
